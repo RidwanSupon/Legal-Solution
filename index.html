@@ -34,30 +34,53 @@
   <!--header-->
   
   <header class="container mx-auto lg:max-w-5xl mt-2 md:mt-10 p-2 md:p-0">
-<nav>
+<nav class="">
       <!-- Navbar -->
-<div class="navbar bg-base-100 shadow-lg rounded-md flex flex-col justify-center gap-3 md:flex-row">
-  <!-- Left: Logo -->
-  <div class="navbar-start">
-      <a class="btn btn-ghost normal-case text-xl"><img src="legal-solution-resources-main/images/logo2.png" alt=""></a>
-      
-  </div>
+      <div class="navbar bg-base-100 flex flex-col md:flex-row">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+              <li><a>Home ></a></li>
+              <li>
+                <a>Services ></a></li>
+              <li><a>Cases</a></li>
+              <li><a>Blog</a></li>
+              <li><a>Contact Us</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost text-xl"><img src="legal-solution-resources-main/images/logo2.png" alt=""></a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>Services</a></li>
+            <li><a>Cases</a></li>
+            <li><a>Blog</a></li>
+            <li><a>Contact Us</a></li>
+          </ul>
+        </div>
+        
+        <div class="navbar-end mt-5 md:mt-0">
+          <a style="background-color: #B68C5A; color: aliceblue;"; class="btn text-1xl md:text-xl">Free Consultation</a>
+        </div>
+        </div>
 
-  <!-- Middle: Navigation Links -->
-  <div class="navbar-center">
-      <ul class="menu menu-horizontal gap-0 lg:gap-2 flex flex-col md:flex-row">
-          <li><a href="#">Home ></a></li>
-          <li><a href="#">Services ></a></li>
-          <li><a href="#">Cases ></a></li>
-          <li><a href="#">Blog ></a></li>
-          <li><a href="#">Contact Us ></a></li>
-      </ul>
-  </div>
 
-  <!-- Right: Button -->
-  <div class="navbar-end">
-      <button style="background-color: #B68C5A; color: white;"; class="btn items-center">Free Consultation</button>
-  </div>
   </nav>
   <!--Slider-->
   <div class="">
@@ -66,9 +89,9 @@
   style="background-image: url(legal-solution-resources-main/images/banner.png);">
   <div class="hero-overlay bg-opacity-60 rounded-xl"></div>
   <div class="hero-content text-neutral-content text-center rounded-xl">
-    <div class="max-w-md">
-      <h1 class="mt-10 mb-5 text-5xl lg:text-7xl font-bold">Hello there</h1>
-      <p class="mb-5">
+    <div class="">
+      <h1 style="color:#FFFFFF;" class="mt-10 mb-6 text-2xl lg:text-5xl font-bold"><span>We Provide Effective </span>  <br> Legal Solutions</h1>
+      <p class="mb-5 max-w-md">
         Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
         quasi. In deleniti eaque aut repudiandae et a id nisi.
       </p>
@@ -101,35 +124,102 @@
           <img class="mx-auto block" src="legal-solution-resources-main/images/Frame.png" alt="">
         </div>
         <div class="shadow-lg border border-[#B68C5A] p-2 md:p-5 rounded-lg">
-          <img class="mx-auto block mb-5" src="legal-solution-resources-main/images/business.png" alt="">
-          <h3 class="text-2xl font-bold text-[#504f4f]">Business Law</h3>
+          <img class="mx-auto block mb-5" src="legal-solution-resources-main/images/criminal.png" alt="">
+          <h3 class="text-2xl font-bold text-[#504f4f]">Criminal Law</h3>
           <p class="text-[#707070] mt-2 mb-5"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis et quaerat laboriosam sed veritatis porro!</p>
           <img class="mx-auto block" src="legal-solution-resources-main/images/Frame.png" alt="">
         </div>
         <div class="border border-[#B68C5A] p-2 md:p-5 rounded-lg shadow-lg">
-          <img class="mx-auto block mb-5" src="legal-solution-resources-main/images/business.png" alt="">
-          <h3 class="text-2xl font-bold text-[#504f4f]">Business Law</h3>
+          <img class="mx-auto block mb-5" src="legal-solution-resources-main/images/child.png" alt="">
+          <h3 class="text-2xl font-bold text-[#504f4f]">Child Support</h3>
           <p class="text-[#707070] mt-2 mb-5"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis et quaerat laboriosam sed veritatis porro!</p>
           <img class="mx-auto block" src="legal-solution-resources-main/images/Frame.png" alt="">
         </div>
         <div class="border border-[#B68C5A] p-2 md:p-5 rounded-lg shadow-lg">
-          <img class="mx-auto block mb-5" src="legal-solution-resources-main/images/business.png" alt="">
-          <h3 class="text-2xl font-bold text-[#504f4f]">Business Law</h3>
+          <img class="mx-auto block mb-5" src="legal-solution-resources-main/images/education.png" alt="">
+          <h3 class="text-2xl font-bold text-[#504f4f]">Education Law</h3>
           <p class="text-[#707070] mt-2 mb-5"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis et quaerat laboriosam sed veritatis porro!</p>
           <img class="mx-auto block" src="legal-solution-resources-main/images/Frame.png" alt="">
         </div>
         <div class="border border-[#B68C5A] p-2 md:p-5 rounded-lg shadow-lg">
-          <img class="mx-auto block mb-5" src="legal-solution-resources-main/images/business.png" alt="">
-          <h3 class="text-2xl font-bold text-[#504f4f]">Business Law</h3>
+          <img class="mx-auto block mb-5" src="legal-solution-resources-main/images/divorce.png" alt="">
+          <h3 class="text-2xl font-bold text-[#504f4f]">Divorce Law</h3>
           <p class="text-[#707070] mt-2 mb-5"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis et quaerat laboriosam sed veritatis porro!</p>
           <img class="mx-auto block" src="legal-solution-resources-main/images/Frame.png" alt="">
         </div>
         <div class="border border-[#B68C5A] p-2 md:p-5 rounded-lg shadow-lg">
-          <img class="mx-auto block mb-5" src="legal-solution-resources-main/images/business.png" alt="">
-          <h3 class="text-2xl font-bold text-[#504f4f]">Business Law</h3>
+          <img class="mx-auto block mb-5" src="legal-solution-resources-main/images/tax.png" alt="">
+          <h3 class="text-2xl font-bold text-[#504f4f]">Tax Law</h3>
           <p class="text-[#707070] mt-2 mb-5"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis et quaerat laboriosam sed veritatis porro!</p>
           <img class="mx-auto block" src="legal-solution-resources-main/images/Frame.png" alt="">
         </div>
+      </section>
+
+      <!--slide show-->
+      <section>
+        <div class="flex flex-col items-center text-center mb-10 md:mb-16">
+        <h3 class="text-2xl md:text-5xl mb-5 text-center">What Our Client Say</h3>
+        <p class="text-center lg:max-w-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, architecto reiciendis vel id quaerat ipsa perferendis repudiandae eum voluptatem nesciunt numquam ad fugit at quidem?</p>
+      </div>
+      <!--carousel-->
+      <div class="carousel w-full">
+        <div id="slide1" class="carousel-item relative w-full">
+          <img
+            src="legal-solution-resources-main/images/slider-1.jpg"
+            class="rounded-xl" />
+
+            <div class="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-35 p-6 rounded-xl">
+              <!-- Header -->
+              <h2 class="text-3xl md:text-5xl text-white font-bold mb-4 text-center">Your Stunning Header</h2>
+              
+              <!-- Text Content -->
+              <p class="text-white text-center max-w-lg">
+                This is a sample text description that you can customize. Add some engaging content here to captivate your audience.
+              </p>
+            </div>
+
+          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slide3" class="btn btn-circle opacity-20 md:opacity-85">❮</a>
+            <a href="#slide2" class="btn btn-circle opacity-20 md:opacity-85">❯</a>
+          </div>
+        </div>
+        <div id="slide2" class="carousel-item relative w-full">
+          <img
+            src="legal-solution-resources-main/images/slider-2.jpg"
+            class="rounded-xl" />
+            <div class="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-35 p-6 rounded-xl">
+              <!-- Header -->
+              <h2 class="text-3xl md:text-5xl text-white font-bold mb-4 text-center">Your Stunning Header</h2>
+              
+              <!-- Text Content -->
+              <p class="text-white text-center max-w-lg">
+                This is a sample text description that you can customize. Add some engaging content here to captivate your audience.
+              </p>
+            </div>
+          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slide1" class="btn btn-circle opacity-20 md:opacity-85">❮</a>
+            <a href="#slide3" class="btn btn-circle opacity-20 md:opacity-85">❯</a>
+          </div>
+        </div>
+        <div id="slide3" class="carousel-item relative w-full">
+          <img
+            src="legal-solution-resources-main/images/slider-3.jpg"
+            class="rounded-xl" />
+            <div class="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-35 p-6 rounded-xl">
+              <!-- Header -->
+              <h2 class="text-3xl md:text-5xl text-white font-bold mb-4 text-center">Your Stunning Header</h2>
+              
+              <!-- Text Content -->
+              <p class="text-white text-center max-w-lg">
+                This is a sample text description that you can customize. Add some engaging content here to captivate your audience.
+              </p>
+            </div>
+          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slide2" class="btn btn-circle opacity-20 md:opacity-85">❮</a>
+            <a href="#slide1" class="btn btn-circle opacity-20 md:opacity-85">❯</a>
+          </div>
+        </div>
+      </div>
       </section>
     </main>
     <!--footer-->
