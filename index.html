@@ -32,9 +32,11 @@
 </head>
 <body class="font-manrope">
   <!--header-->
-    <header class="container mx-auto lg:max-w-5xl mt-10">
+  
+  <header class="container mx-auto lg:max-w-5xl mt-2 md:mt-10 p-2 md:p-0">
+<nav>
       <!-- Navbar -->
-<div class="navbar bg-base-100 shadow-lg rounded-md">
+<div class="navbar bg-base-100 shadow-lg rounded-md flex flex-col justify-center gap-3 md:flex-row">
   <!-- Left: Logo -->
   <div class="navbar-start">
       <a class="btn btn-ghost normal-case text-xl"><img src="legal-solution-resources-main/images/logo2.png" alt=""></a>
@@ -42,8 +44,8 @@
   </div>
 
   <!-- Middle: Navigation Links -->
-  <div class="navbar-center hidden lg:flex">
-      <ul class="menu menu-horizontal px-1">
+  <div class="navbar-center">
+      <ul class="menu menu-horizontal lg:gap-2 flex flex-col md:flex-row">
           <li><a href="#">Home ></a></li>
           <li><a href="#">Services ></a></li>
           <li><a href="#">Cases ></a></li>
@@ -56,10 +58,39 @@
   <div class="navbar-end">
       <button style="background-color: #B68C5A; color: white;"; class="btn">Free Consultation</button>
   </div>
+  </nav>
+  <!--Slider-->
+  <div class="">
+  <div
+  class="hero mt-2 rounded-xl"
+  style="background-image: url(legal-solution-resources-main/images/banner.png);">
+  <div class="hero-overlay bg-opacity-60 rounded-xl"></div>
+  <div class="hero-content text-neutral-content text-center rounded-xl">
+    <div class="max-w-md">
+      <h1 class="mt-10 mb-5 text-5xl lg:text-7xl font-bold">Hello there</h1>
+      <p class="mb-5">
+        Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+        quasi. In deleniti eaque aut repudiandae et a id nisi.
+      </p>
+      <div class="flex flex-col md:flex-row justify-center gap-4">
+        <div class="form-control">
+          <input type="text" placeholder="Search" class="input input-bordered w-auto md:w-auto text-[#707070]">
+          
+        </div>
+        <button class="btn btn-primary mb-10">Get Started</button>
+      </div>
+      
+    </div>
+  </div>
+</div>
+</div>
     </header>
     <!--main-->
-    <main>
-
+    <main class="container mx-auto lg:max-w-5xl mt-2 md:mt-16 p-2">
+      <div class="flex flex-col items-center text-center">
+        <h1 class="text-3xl font-bold text-[#414040]">The Legal Practice Area</h1>
+        <p class="lg:max-w-2xl mt-3 text-[#707070]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur excepturi dignissimos illo, quam enim est repellat necessitatibus ipsam tempore, quas possimus sunt rem assumenda culpa voluptas adipisci doloribus molestiae beatae.</p>
+      </div>
     </main>
     <!--footer-->
     <footer>
